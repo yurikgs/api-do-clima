@@ -1,7 +1,10 @@
+![image](https://user-images.githubusercontent.com/38916533/160609857-1815e0b4-68e1-4430-954d-8f628f1680b6.png)
+
+
 <p align="center">
   <h1>API do Clima</h1>
 </p>
-
+[Acesse este documento no GitHub, por aqui](https://github.com/yurikgs/api-do-clima/edit/main/README.md)
 
 ## Description
 
