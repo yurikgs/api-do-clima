@@ -10,4 +10,9 @@ export class TempoController {
     return this.tempoService.findByCityName(cidade);
   }
 
+  @Get('objeto/:cidade')
+  async findWeatherObject(@Param('cidade') cidade: string) {
+    return this.tempoService.findObjectByCityName(cidade);
+  }
+
 }

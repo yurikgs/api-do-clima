@@ -1,0 +1,95 @@
+_type: export
+__export_format: 4
+__export_date: 2022-03-29T11:08:11.688Z
+__export_source: insomnia.desktop.app:v2022.2.1
+resources:
+  - _id: req_8438b62f34d14ad9a6f9b2d95d8d71ef
+    parentId: wrk_1232d8489ec84ecaa860cfb0e3145f8d
+    modified: 1648550792540
+    created: 1648550032754
+    url: "{{ _.base_url }}/tempo/Rio de Janeiro"
+    name: Get City Weather
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1648550032754
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: wrk_1232d8489ec84ecaa860cfb0e3145f8d
+    parentId: null
+    modified: 1648549883596
+    created: 1648549883596
+    name: API do Clima
+    description: ""
+    scope: collection
+    _type: workspace
+  - _id: req_8617a4f6cdaa48a19152a4c4cc9ec4a3
+    parentId: wrk_1232d8489ec84ecaa860cfb0e3145f8d
+    modified: 1648551955504
+    created: 1648551918173
+    url: "{{ _.base_url }}/tempo/objeto/Rio de Janeiro"
+    name: Get City Weather Object
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1647549737321.25
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: env_52c4c159ec9b6a1cf83415a6073cccb7656242ba
+    parentId: wrk_1232d8489ec84ecaa860cfb0e3145f8d
+    modified: 1648549891401
+    created: 1648549883619
+    name: Base Environment
+    data: {}
+    dataPropertyOrder: {}
+    color: null
+    isPrivate: false
+    metaSortKey: 1648549883619
+    _type: environment
+  - _id: jar_52c4c159ec9b6a1cf83415a6073cccb7656242ba
+    parentId: wrk_1232d8489ec84ecaa860cfb0e3145f8d
+    modified: 1648551054457
+    created: 1648549883623
+    name: Default Jar
+    cookies: []
+    _type: cookie_jar
+  - _id: spc_524ed15de58b4edcbb2aa11b504c5ab4
+    parentId: wrk_1232d8489ec84ecaa860cfb0e3145f8d
+    modified: 1648549883601
+    created: 1648549883601
+    fileName: API do Clima
+    contents: ""
+    contentType: yaml
+    _type: api_spec
+  - _id: env_038ca3c07d4d467eba4c12d00600b8d3
+    parentId: env_52c4c159ec9b6a1cf83415a6073cccb7656242ba
+    modified: 1648550004644
+    created: 1648549896184
+    name: Test
+    data:
+      base_url: localhost:3000
+    dataPropertyOrder:
+      "&":
+        - base_url
+    color: "#20b7f8"
+    isPrivate: false
+    metaSortKey: 1648549896184
+    _type: environment
