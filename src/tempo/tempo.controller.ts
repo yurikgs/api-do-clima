@@ -7,12 +7,18 @@ export class TempoController {
 
   @Get(':cidade')
   async findWeather(@Param('cidade') cidade: string) {
-    return this.tempoService.findByCityName(cidade);
+
+    let cidadeFixed = cidade.normalize('NFD').replace(/([\u0300-\u036f]|[^0-9a-zA-Z ])/g, '')
+    
+    return this.tempoService.findByCityName(cidade, cidadeFixed);
   }
 
   @Get('objeto/:cidade')
   async findWeatherObject(@Param('cidade') cidade: string) {
-    return this.tempoService.findObjectByCityName(cidade);
+
+    let cidadeFixed = cidade.normalize('NFD').replace(/([\u0300-\u036f]|[^0-9a-zA-Z ])/g, '')
+
+    return this.tempoService.findObjectByCityName(cidade, cidadeFixed);
   }
 
 }
