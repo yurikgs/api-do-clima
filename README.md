@@ -1,73 +1,48 @@
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
+  <h1>API do Clima</h1>
 </p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
-
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-## Installation
+> Descubra como está o clima de uma cidade apenas inserindo o nome dela na url!
 
-```bash
-$ npm install
-```
 
-## Running the app
+## Como rodar e usar a API
 
-```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
-```
-
-## Test
+ -Antes de mais nada certifique-se de ter o node, o npm e o nest cli instalados em sua máquina
+ -Abra o terminal na pasta raiz da aplicação,  e instale todas as dependencias necessárias: ```npm i```
+ -Depois de tudo instalado, execute, no terminal, ainda na pasta raiz, nest start
+ -No seu navegador, acesse o endpoint abaixo, trocando "sua cidade" pelo nome da cidade desejada:
 
 ```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+localhost://3000:/tempo/sua cidade
 ```
+ -Você receberá, na tela de seu navegador, as informações de clima referentes à cidade que você escolheu.
 
-## Support
+## Documentação/Testes
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+ -Para acessar a documentação no insomnia, acesse a pasta ```docs/documentacao_insomnia``` e abra o arquivo .yalm pelo seu cliente insomnia.
+ -NOTA: Deixei 2 endpoints configurados, um retorna uma string na tela do navegador, e um segundo um objeto. Esse último para a possibilidade de a API ser acessada por um frontend. 
 
-## Stay in touch
+## Teste Técnico:
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+### Quanto tempo você usou para completar a solução apresentada? O que você faria se tivesse mais tempo?
 
-## License
+ > Tempo total: Pesquisa/Leitura da documentação Openweather, elaboração da lógica da solução - 2,5 horas / Código: 50 min / Documentação Markdown + testes 1h
+ > Com + tempo: Intefaxe gráfica(Front End) + Documentação no Swagger
 
-Nest is [MIT licensed](LICENSE).
+### Se usou algum framework, qual foi o motivo de ter usado este? Caso contrário, por que não utilizou nenhum?
+
+ > Framework: Nestjs. Motivo: A estrutura pré pronta do framework previne erros de código, bem como agiliza muito a codificação em vários aspectos, como por exemplo ao gerar resources/cruds.
+
+
+## Fale comigo :)
+
+ <div>
+ <sub><b>💻 Yuri Silva 💻<br> <i>Web Developer</i></b></sub></a> <a href="https://www.linkedin.com/in/yuri-silva-09539713a/" title="YuriSilva"></a>
+ <br><br>
+	<a href="https://www.linkedin.com/in/yuri-silva-09539713a/"> Linkedin <img src="https://www.linkedin.com/in/yuri-silva-09539713a/"></a>
+ <div>
+
