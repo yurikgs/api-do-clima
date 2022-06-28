@@ -10,7 +10,7 @@
         "build": "nest build",
         "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
         "start": "nest start",
-        "prestart:netly": "nest start",
+        "posstart:netly": "nest start",
         "start:netly": "npm run build",
         "start:dev": "nest start --watch",
         "dev": "nest start --watch",
